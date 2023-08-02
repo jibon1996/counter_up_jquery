@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter number with jquery</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="item1">
+                <img src="icon_images/icon1.png" alt="">
+                <h1 class="counter">230</h1>
+                <p>Like</p>
+            </div>
+            <div class="item2">
+                <img src="icon_images/icon2.png" alt="">
+                <h1 class="counter">325</h1>
+                <p>comments</p>
+            </div>
+            <div class="item3">
+                <img src="icon_images/icon3.png" alt="">
+                <h1 class="counter">542</h1>
+                <p>members</p>
+            </div>
+            <div class="item4">
+                <img src="icon_images/icon4.png" alt="">
+                <h1 class="counter">632</h1>
+                <p>followers</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+    <script>    
+        $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+        });
+    </script>
+
+  
+</body>
+</html>
